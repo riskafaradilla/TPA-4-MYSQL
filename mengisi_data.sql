@@ -1,0 +1,63 @@
+insert into product (kode_product,jenis_product,nama_product,harga,stok) values
+('P01','makanan','silver queen',25000,200),
+('P01','makanan','chitato',12000,10),
+('P01','makanan','tango',7000,67),
+('P01','makanan','taro',8000,149),
+('P01','makanan','Cheetos Puff',17000,44),
+('P01','makanan','Lays',13000,60),
+('P01','makanan','Qtela',15000,172),
+('P01','makanan','Chiki Balls',10000,98),
+('P01','makanan','Nabati Cheese Wafers',9000,23),
+('P01','makanan','Kusuka',7000,55),
+('P01','makanan','Kit Kat',12000,67),
+('P01','makanan','Pocky',7000,100),
+('P01','makanan','Lotte Choco Pie',25000,86),
+('P02','minuman','aqua',4000,16),
+('P02','minuman','teh gelas',9000,46),
+('P02','minuman','mizone',8000,87),
+('P02','minuman','pocari sweat',12000,21),
+('P02','minuman','Coca-Cola',8000,123),
+('P02','minuman','fanta',7000,40),
+('P03','sembako','gula',12000,44),
+('P03','sembako','minyak goreng',17000,38),
+('P03','sembako','garam',6000,19),
+('P03','sembako','tepung terigu',9000,32),
+('P03','sembako','kecap',7000,24),
+('P03','sembako','mie instan',3000,54),
+('P04','perlengkapan mandi/mencuci','sabun mandi',3000,23),
+('P04','perlengkapan mandi/mencuci','pasta gigi',8000,29),
+('P04','perlengkapan mandi/mencuci','shampo',12000,24),
+('P04','perlengkapan mandi/mencuci','deterjen',7000,67),
+('P04','perlengkapan mandi/mencuci','sikat gigi',5000,27),
+('P04','perlengkapan mandi/mencuci','sabun pencuci piring',5000,86),
+('P04','perlengkapan mandi/mencuci','pewangi pakaian',11000,200);
+
+insert into pelanggan (nama_pelanggan,jenis_kelamin,telepon,alamat) values
+('ishak','laki-laki','082145672113','jl. indah, no.12, luwu timur'),
+('sari','perempuan','081221134567','jl. anggrek, no.72, morowali'),
+('adam','laki-laki','081367893341','jl. trans, no.14, bunta'),
+('puteri','perempuan','081267823456','jl. dr. sam ratulangi, no.01, kab. banggai'),
+('ali','laki-laki','082144561289','jl. pahlawan, no.34, manado'),
+('yusuf','laki-laki','082147890143','jl. mekar sari, no.45, bunta'),
+('angga','laki-laki','081287901234','jl. keraton, no.117, nuhon'),
+('citra','laki-laki','082298123780','jl. anggrek, no.03, morowali'),
+('rozak','laki-laki','082297854132','jl. hasanudin, no.14, toili'),
+('alif','laki-laki','082166732184','jl. keraton, no.17, nuhon'),
+('ida','laki-laki','081289234145','jl. trans, no.68, bunta'),
+('dian','laki-laki','082197241278','jl. pahlawan, no.23, manado'),
+('jaka','laki-laki','081290167892','jl. hasanudin, no.67, toili');
+
+insert into transaksi (tanggal_transaksi,id_pelanggan,id_product) values
+('2019-12-19',1,2),
+('2019-10-10',2,5),
+('2019-04-22',3,2),
+('2021-11-09',4,1),
+('2021-10-18',5,5),
+('2021-08-25',6,4),
+('2021-04-20',7,9),
+('2022-01-21',8,19),
+('2022-05-21',9,24),
+('2022-07-14',10,14);
+
+
+
